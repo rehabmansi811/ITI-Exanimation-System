@@ -1,0 +1,20 @@
+-----THIS PROCEDURE WILL YOU CAN USE IT ONLY WHEN YOUR ROLE IS ADMIN AND HAVE ALL PERMESSION TO INSERT AND GIVE ANOTHR USER GARANTI YOU MUST TO CONNECT WITH OUR
+-----OUR DATABASE USING ONE OF ADMIN ACCOUNT (USER CONNECTION)  THERE IS ACCOUNTS :
+--devmuatef@admin.com      PASSWORD IS :Admin@123
+--Rehab_mansi@admin.com    PASSWORD IS :Admin@123
+--Ebtihal_Ali@admin.com    PASSWORD IS :Admin@123       --THIS IS ADMINS ACCOUNT PLEASE ONE OF THEM TO MAKE IT EASE FOR U !.
+--Yamine_Saffan@admin.com  PASSWORD IS :Admin@123
+--Omar_Tarek@admin.com     PASSWORD IS :Admin@123
+
+
+--EMAIL FOR STUDETN    AND USE  THIS PASSWOR FOR ALL OF THEM: password123
+--ahmed.nabil@student.com
+--salma.hassan@student.com         
+--mohamed.ali@student.com
+
+--EMAIL FOR INSTRUCTOR AND USE  THIS PASSWOR FOR ALL OF THEM: password123
+--ahmed.hassan@example.com
+--mona.tarek@example.com        
+--mohamed.sayed@example.com
+--fatima.kamal@example.com
+--khaled.gharib@example.com
