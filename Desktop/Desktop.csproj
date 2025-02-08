@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Admin\InstructorCourseForm\InstructorCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin\StudentAnswerForm\StudentAnswerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin\StudentCourseForm\StudentCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin\StudentDepartmentForm\StudentDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InstructorForms\ExamsForm\ExamQuestionsForm\ExamQuestionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InstructorForms\ExamsForm\ExamStudentsForm\ExamStudentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InstructorForms\ExamsForm\ExamStudentsForm\StudentAnswersForm\StudentAnswersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="StudentForms\ExamsForm\ExamsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentForms\HomeForm\StudentHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
